@@ -1,0 +1,7 @@
+PROPRIEDADES DOS MÉTODOS 
+
+Método seguro - Significa que ele não vai realizar alterações em nosso servidor, faz apenas leituras. Ele não deleta, não modifica e nem mexe em opções em um servidor. Basicamente ele só realiza leitura. Exemplos de métodos assim são, GET, HEAD e OPTIONS. Estes métodos nunca devem ser utilizados em uma API para remover um recurso, por exemplo. Pois, dessa forma acaba ficando contraintuitivo.
+
+Métodos idempotentes - É considerado idempotente quando o efeito no servidor, mesmo ao receber múltiplas requisições seguidas e idênticas, conduz ao mesmo resultado que apenas uma única requisição. Por exemplo, se for mandando diversas vezes uma requisição GET é esperado receber o mesmo tipo de informação, se feito com uma requisição tipo POST, não terá o mesmo resultado esperado, com o resultado podendo variar (um novo recurso com id ou data de criação diferente sendo criado).
+
+Métodos cacháveis - Métodos cacheáveis asseguram que requisições futuras não precisem acessar novamente o servidor, utilizando o que já está armazenado. Um exemplo é o método GET, que pode ser cacheável. Ao enviar uma requisição para obter todos os cursos em /api/cursos, nosso cliente pode optar por armazenar essa resposta em cache, dependendo das informações disponíveis.   
