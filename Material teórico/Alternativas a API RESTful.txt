@@ -1,0 +1,9 @@
+Alternativas a API RESTful - 
+
+GraphQL - Sendo uma modelo para criação de APIs de forma mais flexível, descrevendo como um dado seu pode parecer o que facilita a evolução da sua aplicação ao longo do tempo, permitindo adicionar novos campos e recursos sem quebrar as versões antigas do aplicativo ou precisar criar uma 'v2' da API. 
+
+gRPC - Este aqui é um framework, consistindo de várias tecnologias trabalhando juntas com o proposito de criar web services ou APIs. Um serviço que utiliza gRPC utiliza compressão por padrão (a tecnologia já vem de fábrica configurada para reduzir o tamanho dos dados transmitidos automaticamente) e pode trabalhar com HTTP2, sendo focado em performasse.
+
+
+
+
