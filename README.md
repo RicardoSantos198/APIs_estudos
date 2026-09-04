@@ -1,10 +1,10 @@
-<h1># 🍕 Primeira API — CRUD de Produtos</h1>
+<h1>🍕 Primeira API — CRUD de Produtos</h1>
 
 <h4>Minha primeira API REST, desenvolvida como prática após o curso de **Node.js, API REST e MongoDB** da Alura. O curso foi ótimo, mas bastante conceitual — este projeto foi o jeito que encontrei de sair da teoria e realmente aplicar os conceitos na prática, construindo uma API do zero.</h4>
 
 Levei cerca de **4 horas** para desenvolver(deu um trabalho! 😅😅).
 
-<h3>## 💡 Sobre o projeto</h3>
+<h3>💡 Sobre o projeto</h3>
 
 Uma API simples de CRUD (Create, Read, Update, Delete) para gerenciar um catálogo de produtos. No caso, um cardápio de pizzas. O objetivo era entender na prática como funcionam:
 
@@ -13,14 +13,14 @@ Uma API simples de CRUD (Create, Read, Update, Delete) para gerenciar um catálo
 - Validação de dados de entrada com Pydantic
 - Manipulação de uma "base de dados" em memória (lista de dicionários)
 
-<h3>## 🛠️ Tecnologias utilizadas</h3>
+<h3> 🛠️ Tecnologias utilizadas</h3>
 
 - **[FastAPI](https://fastapi.tiangolo.com/)** — framework Python usado como servidor para criar e testar a API
 - **[Pydantic](https://docs.pydantic.dev/)** — validação e modelagem dos dados recebidos nas requisições
 - **Python 3.11**
 - **Uvicorn** (servidor ASGI, instalado como dependência do FastAPI) para rodar a aplicação localmente
 
-## 📋 Endpoints
+<h3>📋 Endpoints</h3>
 
 | Método | Rota | Descrição |
 |--------|------|-----------|
@@ -73,7 +73,7 @@ Uma API simples de CRUD (Create, Read, Update, Delete) para gerenciar um catálo
    - Swagger UI: `http://127.0.0.1:8000/docs`
    - ReDoc: `http://127.0.0.1:8000/redoc`
 
-<h3>## 🧪 Testando a API</h3>
+<h3>🧪 Testando a API</h3>
 
 O arquivo [`teste.http`](./teste.http) contém exemplos prontos de todas as requisições (GET, POST, PUT, DELETE). Se você usa VS Code, a extensão **REST Client** permite executar essas requisições direto do editor, sem precisar do Postman ou Insomnia.
 
