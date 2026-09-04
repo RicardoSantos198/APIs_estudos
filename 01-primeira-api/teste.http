@@ -1,0 +1,30 @@
+### Listar produtos
+GET http://127.0.0.1:8000/produtos
+
+
+### Buscar produto por ID
+GET http://127.0.0.1:8000/produtos/1
+
+
+### Criar produto
+POST http://127.0.0.1:8000/produtos
+Content-Type: application/json
+
+{
+    "nome": "Pizza de bacon",
+    "preco": 50.00
+}
+
+
+### Atualizar produto
+PUT http://127.0.0.1:8000/produtos/4
+Content-Type: application/json
+
+{
+    "nome": "Pizza de bacon especial",
+    "preco": 55.00
+}
+
+
+### Deletar produto
+DELETE http://127.0.0.1:8000/produtos/4

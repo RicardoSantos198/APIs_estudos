@@ -1,0 +1,21 @@
+MÉTODOS HTTP
+
+Métodos HTTP dizem o que eu quero fazer com este recurso que eu estou acessando
+
+GET -  GET para acessar o nosso endpoint de /cursos, significa que desejamos recuperar ou buscar todos os cursos disponíveis.
+
+POST - É utilizado para enviar o corpo da requisição para enviar informações para e criar recursos.
+
+HEAD - Só recebe os cabeçalhos dos recurso, pode ser interessante para saber o tamanho e saber o tipo da resposta.
+
+PUT - Este método espera que o dado que estou enviando, substitua o dado que tenho no servidor. Se o recurso não existir, ele será criado, já se ele existir ele será substituído.
+
+PATCH - Ele permita fazer uma alteração de forma parcial, parecido com o PUT, porém se tentarmos realizar alguma alteração diferente do PUT ele não alteraria caso esta não exista.
+
+DELETE - Serve para remover um recurso.
+
+CONNECT - Estabelece a conexão com o servidor, sendo pouquíssimo utilizado.
+
+OPTIONS - É usado para receber informações do servidor sobre o que ele suporta naquele endpoint. Informando que métodos essa API Suporta. Servindo para recuperar informações do que é permitido na API.
+
+ 

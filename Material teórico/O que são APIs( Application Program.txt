@@ -1,0 +1,26 @@
+O que são APIs( Application Programming Interface). 
+
+APIs servem como intermediário entre o usuário e o sistema, sendo uma interface para o que você quer e como ela vai realizar sua requisição.
+
+Os tipos mais comuns de APIs são:
+APIs web
+APIs de código fonte
+
+Como seria uma API de código fonte? 
+
+Por exemplo, como você sabe o mês atual? Cada linguagem de programação vai fornecer uma API de data, uma forma para recuperar a data e descobrir o mês.
+
+Como é uma API web?
+
+São API que fazem requisições pela rede (HTTP) e de alguma forma, sendo por uma banco de dados por exemplo, pegam a informação mostram para mim. Tipo um endereço via CEP, eu mando o endereço para um site (por exemplo dos correios) e eles me devolvem um determinado endereço. Agora como pegou esse endereço? Não importa.
+
+Padrões de API web
+
+RPC ((Remote Procedure Call)  - Se quero fazer uma requisição para uma URL busca endereço passando o CEP, então chamo uma função de nome busca endereço e com base no CEP ela me trás o endereço para mim
+
+Soap - Ele fornecia um protocolo para trabalhar com RPC, ele definia uma formato de requisição (geralmente XML) e passaríamos qual função gostaríamos de chamar e seus parâmetros. 
+
+REST - Este padrão diz que vamos usar a "linguagem" padrão web (como foi pensado) utilizando os verbos HTTP, GET, POST, PUT, etc.
+
+
+
